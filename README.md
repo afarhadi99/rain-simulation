@@ -1,5 +1,5 @@
 <a href="">
-  <img alt="\Rain Sim" src="https://chat.vercel.ai/opengraph-image.png">
+  <img alt="\Rain Sim" src="https://github.com/afarhadi99/rain-simulation/blob/master/public/screenshot.jpg">
 </a>
 
 # Simple Rain Sumulations
@@ -24,4 +24,8 @@ npm run dev
 
 ## Changing 3D Models
 
-## 
+3D models are located in the public folder. You can download 3D models from Sketchfab or any other methods. The recommended format for these models is GLB. You can convert models to GLB using Blender [https://www.blender.org/]. 
+
+The 3D scene is inside of src/components/RainSimulation.tsx component. The scene consists of 2 model located in lines 78 and 115. There are also raindrop partices located in line 53-73.
+
+
